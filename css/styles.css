@@ -1,4 +1,4 @@
- :root
+ /* :root
 {
     --accent-color:   #212121;
     --primary-font:Roboto,sans-serif;
@@ -14,8 +14,136 @@
     --secondary-color-border:#ECECEC;
     --transition-dur-and-func:250ms linear;
     --timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  } */
+/* 
+  h1,h2,h3,h4,p
+  {
+      
+      margin-top: 0;
+      margin-bottom: 0;
+   }
+
+
+.ul,    
+.li{ 
+      margin-top: 0px;
+      margin-bottom:0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      
+   }
+
+   img
+   {
+       display: block;
+       max-width: 100%;
+       height: auto;
+   }
+   
+    */
+
+
+
+
+
+ /* .container 
+     {    
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px; 
+      } */
+  .section 
+      { 
+        padding-top: 94px;
+        padding-bottom: 94px;
+      }
+/* ============components=========== */
+/* 
+
+.logo
+{ 
+    font-family:Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+   
+   
+    display: flex;
+    align-items:center;
+    
+     color: var(--accent-color);
+  }
+.logo-w 
+{ font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color:var(--primary-text-color-theme-dark);}
+
+  .accent-logo
+  { font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:  var(--primary-text-color-theme-light);
   }
 
+
+
+
+.page-header-container 
+  {
+  display: flex; 
+  align-items: center;
+  }
+
+.page-nav 
+{ 
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+
+
+.menu 
+{ 
+  display: flex;
+  align-items:center;
+  gap: 50px;
+}
+
+
+.contakt 
+{
+  display: flex;gap: 50px;
+  align-items: center;
+  margin-left: auto;
+}
+ */
+
+     
+    /* ============heder==================    */
+  
+    /* body
+    {
+        font-family: Roboto, sans-serif;
+  
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        padding: 0;
+        background-color: var(--primary-text-color-theme-dark);
+    }
+    
+
+    
 
 .link
 {
@@ -56,128 +184,12 @@ margin-right: 93px;
   margin: 0;
 
 }
-img
-{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-
-.logo
-{ 
-    font-family:Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-   
-   
-    display: flex;
-    align-items:center;
-    
-     color: var(--accent-color);
-  }
-.logo-w 
-{ font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color:var(--primary-text-color-theme-dark);}
-
-  .accent-logo
-  { font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color:  var(--primary-text-color-theme-light);
-  }
-
-    h1,h2,h3,h4,p
-    {
-        
-        margin-top: 0;
-        margin-bottom: 0;
-     }
-
-
-.ul,    
-.li{ 
-        margin-top: 0px;
-        margin-bottom:0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        
-     }
- .container 
-     {    
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px; 
-      }
-  .section 
-      { 
-        padding-top: 94px;
-        padding-bottom: 94px;
-      }
-/* ============components=========== */
-
-
-
-
-
-.page-header-container 
-  {
-  display: flex; 
-  align-items: center;
-  }
-
-.page-nav 
-{ 
-  display:flex;
-  align-items: center;
-  justify-content:space-between;
-}
-
-
-
-.menu 
-{ 
-  display: flex;
-  align-items:center;
-  gap: 50px;
-}
-
-
-.contakt 
-{
-  display: flex;gap: 50px;
-  align-items: center;
-  margin-left: auto;
-}
-
-
-     
-    /* ============heder==================    */
-  
-    body
-    {
-        font-family: Roboto, sans-serif;
-  
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        padding: 0;
-        background-color: var(--primary-text-color-theme-dark);
-    }
-    
        .button { cursor: pointer;}
-     
+      */
+
+
+
+
 .overlay
 {
   max-width: 1600px;
