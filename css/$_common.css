@@ -38,6 +38,10 @@ body {
   margin: 0;
 }
 
+button {
+  border: none;
+}
+
 .button {
-  cursor: pointer;
+  border-width: 0px;
 }/*# sourceMappingURL=$_common.css.map */

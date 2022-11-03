@@ -51,5 +51,12 @@ padding: 0;
 margin: 0;
 
 }
-   .button { cursor: pointer;}
+
  
+button{
+    border: none;
+  }
+  
+    .button {
+     border-width: 0px;
+     }

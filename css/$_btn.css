@@ -1,0 +1,20 @@
+.modal-open-btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.17;
+  width: 216px;
+  border: navajowhite;
+  letter-spacing: 0.06em;
+  height: 50px;
+  transition: background-color var(--transition-dur-and-func);
+  color: var(--primary-text-color-theme-dark);
+  background-color: var(--primary-text-color-theme-light);
+  border-radius: 4px;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  color: var(--primary-text-color-theme-dark);
+  background-color: var(--secondary-background-btn-color-theme-light);
+}/*# sourceMappingURL=$_btn.css.map */

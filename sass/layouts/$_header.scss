@@ -65,3 +65,60 @@
   margin-left: auto;
 }
 
+
+.menu
+{margin-left: 93px;
+} 
+
+
+.menu-link
+{  position: relative;
+   font-weight: 500;
+   font-family:Roboto,sans-serif;
+    color:var(--accent-color);
+    transition: color var(--transition-dur-and-func);
+}
+.menu-link:hover,
+.menu-link:focus
+{
+
+color:var(--primary-text-color-theme-light);
+}
+
+
+
+ .contakt-email
+ {
+   font-weight: 500;
+   fill:currentColor;
+   color:var( --secondary-text-color-theme-light);
+   transition: color var(--transition-dur-and-func);
+
+
+  }
+  .contakt-email:hover,
+  .contakt-email:focus
+  {
+  
+   color:var(--primary-text-color-theme-light);
+  }
+
+
+ .contakt-stil
+ 
+
+ { 
+   transition: color var(--transition-dur-and-func);
+  color:var(--accent-color);
+ }
+ 
+ .contakt-stil:hover,
+ .contakt-stil:focus
+  { 
+   color: var(--primary-text-color-theme-light)
+ }
+
+ .contakt-phone-number
+  {
+   color:var(--secondary-text-color-theme-light);
+ }
