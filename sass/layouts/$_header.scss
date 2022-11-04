@@ -12,15 +12,17 @@
     align-items:center;
     
      color: var(--accent-color);
+     &-w 
+     { font-family: Raleway, sans-serif;
+       font-style: normal;
+       font-weight: 700;
+       font-size: 26px;
+       line-height: 1.19;
+       letter-spacing: 0.03em;
+       color:var(--primary-text-color-theme-dark);
+      }
   }
-.logo-w 
-{ font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color:var(--primary-text-color-theme-dark);}
+
 
   .accent-logo
   { font-family: Raleway, sans-serif;
@@ -50,12 +52,30 @@
 
 
 
-.menu 
-{ 
+.menu
+{
   display: flex;
   align-items:center;
   gap: 50px;
-}
+  margin-left: 93px;
+
+  &-link
+  {  position: relative;
+     font-weight: 500;
+     font-family:Roboto,sans-serif;
+      color:var(--accent-color);
+      transition: color var(--transition-dur-and-func);
+     &:hover,
+     &:focus
+  {
+  
+  color:var(--primary-text-color-theme-light);
+  } 
+  }
+
+} 
+
+
 
 
 .contakt 
@@ -63,26 +83,10 @@
   display: flex;gap: 50px;
   align-items: center;
   margin-left: auto;
-}
-
-
-.menu
-{margin-left: 93px;
-} 
-
-
-.menu-link
-{  position: relative;
-   font-weight: 500;
-   font-family:Roboto,sans-serif;
-    color:var(--accent-color);
-    transition: color var(--transition-dur-and-func);
-}
-.menu-link:hover,
-.menu-link:focus
-{
-
-color:var(--primary-text-color-theme-light);
+  &-phone-number
+  {
+   color:var(--secondary-text-color-theme-light);
+ }
 }
 
 
@@ -93,32 +97,27 @@ color:var(--primary-text-color-theme-light);
    fill:currentColor;
    color:var( --secondary-text-color-theme-light);
    transition: color var(--transition-dur-and-func);
-
-
-  }
-  .contakt-email:hover,
-  .contakt-email:focus
+  &:hover,
+  &:focus
   {
   
    color:var(--primary-text-color-theme-light);
   }
 
-
- .contakt-stil
+  }
  
 
+
+ .contakt-stil
  { 
    transition: color var(--transition-dur-and-func);
   color:var(--accent-color);
- }
- 
- .contakt-stil:hover,
- .contakt-stil:focus
+   &:hover,
+   &:focus
   { 
    color: var(--primary-text-color-theme-light)
  }
-
- .contakt-phone-number
-  {
-   color:var(--secondary-text-color-theme-light);
  }
+ 
+
+

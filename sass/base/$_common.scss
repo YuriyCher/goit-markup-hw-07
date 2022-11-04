@@ -15,48 +15,52 @@ body
 .link
 {
 text-decoration: none
-
-}
-
-
-.studio-list.link-port
-{
-padding: 24px 0;
-
-}
-.studio-list
-{
-margin-right: 93px;
-}
-.link-port 
+&-port 
 {   display: block;
 text-decoration: none;
 padding: 32px 0;
 margin: 0;
 }
+}
+
+
+.studio-list
+{
+margin-right: 93px;
+}
+
+.studio-list.link-port
+
+{
+padding: 24px 0;
+
+}
+
+
 
 .list
 { 
 list-style:none;
 padding: 0;
 margin: 0;
-
-
-}
-.list-port
+&-port
 { 
 list-style: none;
 padding: 0;
-
 margin: 0;
+}
+
 
 }
 
  
-button{
+button
+  {
     border: none;
+
   }
   
-    .button {
+    .button
+     {
      border-width: 0px;
      }

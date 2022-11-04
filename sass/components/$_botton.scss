@@ -13,18 +13,16 @@
     transition:background-color var(--transition-dur-and-func);
     color:var(--primary-text-color-theme-dark); 
     background-color:var(--primary-text-color-theme-light);
-
-   
     border-radius: 4px;
-     
-     }
-     .modal-open-btn:hover,
-     .modal-open-btn:focus
-      {  
+    &:hover,
+    &:focus
+    {  
     
     color:var(--primary-text-color-theme-dark) ;
     background-color:var(--secondary-background-btn-color-theme-light);
     }
+     }
+   
   
     
     .filter 
@@ -33,40 +31,40 @@
       text-align: center;
       gap: 8px;
       justify-content: center;
-
       margin-bottom: 50px;  
-    }
- 
+      &-list 
+      {  
+      
+     font-family:inherit; 
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.62;
+     letter-spacing: 0.03em;
+     cursor: pointer;
+     padding:6px 22px;
+     color:var(--accent-color);
+      background-color:var(--secondary-background-color-theme-light) ;
+      border-radius: 4px;
+     
+      transition:box-shadow var(--transition-dur-and-func),
+       color var(--transition-dur-and-func),
+      background-color var(--transition-dur-and-func);
 
-
- .filter-list 
- {  
- 
-font-family:inherit; 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-letter-spacing: 0.03em;
-cursor: pointer;
-padding:6px 22px;
-color:var(--accent-color);
- background-color:var(--secondary-background-color-theme-light) ;
- border-radius: 4px;
-
- transition:box-shadow var(--transition-dur-and-func),
-  color var(--transition-dur-and-func),
- background-color var(--transition-dur-and-func);
-
-}
-.filter-list:hover,
-.filter-list:focus
-  { 
+     &:hover,
+     &:focus
+{ 
    
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+ 0px 1px 2px rgba(0, 0, 0, 0.08), 
+ 0px 2px 2px rgba(0, 0, 0, 0.12);
 
         color:var(--primary-text-color-theme-dark);
         background:var(--primary-text-color-theme-light); 
-}
+} 
+     
+ }
+ }
+ 
 
 .backdrop
 {
@@ -104,13 +102,9 @@ pointer-events: none;
   height: 581px;
   background-color: var(--primary-text-color-theme-dark);
   cursor: pointer;
-    padding: 40px;
+  padding: 40px;
 
-}
-
-
-.modal-close-btn
-
+  &-close-btn
 {   
     position: absolute;
     width: 30px;
@@ -126,12 +120,18 @@ pointer-events: none;
     justify-content: center;
     padding: 0;
     cursor: pointer;
-
-
-
-}
-.modal-close-btn:focus{
+&:focus
+{
 
   fill:var(--primary-text-color-theme-light);
 }
+
+}
+}
+
+
+
+
+
+
 /* ==============modal-form========== */

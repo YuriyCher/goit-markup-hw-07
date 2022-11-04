@@ -28,14 +28,13 @@
   color: var(--primary-text-color-theme-dark);
 }
 
-.do-it {
-  padding-top: 0;
-}
-
 .do {
   display: flex;
   text-align: center;
   gap: 30px;
+}
+.do-it {
+  padding-top: 0;
 }
 
 .page-benefits {
@@ -64,27 +63,25 @@
   color: var(--secondary-text-color-theme-light);
 }
 
-.team-section {
-  background: var(--secondary-background-color-theme-light);
-}
-
 .team {
   display: flex;
   text-align: center;
   gap: 30px;
 }
-
-.item-team {
-  background: var(--primary-text-color-theme-dark);
+.team-section {
+  background: var(--secondary-background-color-theme-light);
 }
-
-.team-liter {
+.team-section-liter {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   color: var(--accent-color);
+}
+
+.item-team {
+  background: var(--primary-text-color-theme-dark);
 }
 
 .team-name {
@@ -146,8 +143,16 @@
   opacity: 0;
 }
 
-.flex-element:hover .card-img-text,
-.flex-element:focus .card-img-text {
+.flex-element {
+  display: block;
+  text-decoration: none;
+  width: 370px;
+  transition: color var(--transition-dur-and-func);
+}
+.flex-element:focus, .flex-element:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.flex-element:focus:hover .card-img-text, .flex-element:focus:focus .card-img-text, .flex-element:hover:hover .card-img-text, .flex-element:hover:focus .card-img-text {
   transform: translateY(0%);
   opacity: 1;
 }
@@ -161,28 +166,15 @@
   padding-right: 0px;
 }
 
+.currentColor {
+  color: var(--primary-text-color-theme-light);
+}
 .currentColor.filter-list.Усі :hover {
   background-color: var(--secondary-background-btn-color-theme-light);
 }
 
-.currentColor {
-  color: var(--primary-text-color-theme-light);
-}
-
 .img-list {
   width: 370px;
-}
-
-.flex-element {
-  display: block;
-  text-decoration: none;
-  width: 370px;
-  transition: color var(--transition-dur-and-func);
-}
-
-.flex-element:focus,
-.flex-element:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-name {
@@ -231,7 +223,6 @@
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
-
 .social-list-link {
   display: flex;
   align-items: center;
@@ -241,22 +232,13 @@
   border-radius: 50px;
   background-color: var(--primary-text-color-theme-dark);
   transition: background-color var(--transition-dur-and-func);
-  Fill: Solid 1px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
-
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover, .social-list-link:focus {
   background-color: var(--primary-text-color-theme-light);
   transition: background-color var(--transition-dur-and-func);
 }
 
-.social-list-link:hover .social-list-icon {
-  transition: fill var(--transition-dur-and-func);
-  fill: var(--primary-text-color-theme-dark);
-}
-
+.social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   transition: fill var(--transition-dur-and-func);
   fill: var(--primary-text-color-theme-dark);
@@ -274,7 +256,6 @@
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-
 .customers-list-link {
   display: flex;
   align-items: center;
@@ -286,9 +267,7 @@
   fill: var(--secondary-background-fill);
   transition: fill var(--transition-dur-and-func), border(--transition-dur-and-func);
 }
-
-.customers-list-link:hover,
-.customers-list-link:focus {
+.customers-list-link:hover, .customers-list-link:focus {
   fill: var(--primary-text-color-theme-light);
   border-color: var(--primary-text-color-theme-light);
 }
@@ -297,9 +276,7 @@
   width: 106px;
   height: 60px;
 }
-
-.customers-list-icon:focus,
-.customers-list-icon:hover {
+.customers-list-icon:focus, .customers-list-icon:hover {
   fill: var(--primary-text-color-theme-light);
 }
 
@@ -368,16 +345,13 @@
   display: flex;
   align-items: center;
 }
-
 .post-email-icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   transition: fill var(--transition-dur-and-func);
 }
-
-.post-email-icon:hover,
-.post-email-icon:focus {
+.post-email-icon:hover, .post-email-icon:focus {
   fill: var(--primary-text-color-theme-light);
 }
 

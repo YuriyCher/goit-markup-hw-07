@@ -1,3 +1,9 @@
+.foot {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-content: center;
+  background-color: var(--secondary-text-color-theme-dark);
+}
 .foot-list {
   font-style: normal;
   font-weight: 400;
@@ -5,13 +11,6 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-dark);
-}
-
-.foot {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  align-content: center;
-  background-color: var(--secondary-text-color-theme-dark);
 }
 
 address {
@@ -34,11 +33,6 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.page-foot {
-  display: flex;
-  align-items: baseline;
-}
-
 .social-list-link-footer {
   display: flex;
   align-items: center;
@@ -49,14 +43,11 @@ address {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--transition-dur-and-func);
 }
-
 .social-list-link-footer:hover.social-list-icon-footer .social-list-link-footer:focus.social-list-icon-footer {
   background-color: var(--primary-text-color-theme-light);
   transition: background-color var(--transition-dur-and-func);
 }
-
-.social-list-link-footer:hover,
-.social-list-link-footer:focus {
+.social-list-link-footer:hover.social-list-icon-footer .social-list-link-footer:focus.social-list-icon-footer:hover, .social-list-link-footer:hover.social-list-icon-footer .social-list-link-footer:focus.social-list-icon-footer:focus {
   background-color: var(--primary-text-color-theme-light);
   transition: background-color var(--transition-dur-and-func);
 }
@@ -71,7 +62,6 @@ address {
   flex-direction: column;
   margin-left: 70px;
 }
-
 .join-title {
   font-weight: 700;
   font-size: 14px;

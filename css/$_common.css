@@ -8,22 +8,20 @@ body {
 }
 
 .link {
-  text-decoration: none;
-}
-
-.studio-list.link-port {
-  padding: 24px 0;
+  -webkit-text-decoration: none .link -port;
+          text-decoration: none .link -port;
+  text-decoration-display: block;
+  text-decoration-text-decoration: none;
+  text-decoration-padding: 32px 0;
+  text-decoration-margin: 0;
 }
 
 .studio-list {
   margin-right: 93px;
 }
 
-.link-port {
-  display: block;
-  text-decoration: none;
-  padding: 32px 0;
-  margin: 0;
+.studio-list.link-port {
+  padding: 24px 0;
 }
 
 .list {
@@ -31,7 +29,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .list-port {
   list-style: none;
   padding: 0;

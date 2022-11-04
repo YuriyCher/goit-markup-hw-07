@@ -7,7 +7,6 @@
   align-items: center;
   color: var(--accent-color);
 }
-
 .logo-w {
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -43,6 +42,17 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-left: 93px;
+}
+.menu-link {
+  position: relative;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  color: var(--accent-color);
+  transition: color var(--transition-dur-and-func);
+}
+.menu-link:hover, .menu-link:focus {
+  color: var(--primary-text-color-theme-light);
 }
 
 .contakt {
@@ -51,22 +61,8 @@
   align-items: center;
   margin-left: auto;
 }
-
-.menu {
-  margin-left: 93px;
-}
-
-.menu-link {
-  position: relative;
-  font-weight: 500;
-  font-family: Roboto, sans-serif;
-  color: var(--accent-color);
-  transition: color var(--transition-dur-and-func);
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--primary-text-color-theme-light);
+.contakt-phone-number {
+  color: var(--secondary-text-color-theme-light);
 }
 
 .contakt-email {
@@ -75,9 +71,7 @@
   color: var(--secondary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
 }
-
-.contakt-email:hover,
-.contakt-email:focus {
+.contakt-email:hover, .contakt-email:focus {
   color: var(--primary-text-color-theme-light);
 }
 
@@ -85,12 +79,6 @@
   transition: color var(--transition-dur-and-func);
   color: var(--accent-color);
 }
-
-.contakt-stil:hover,
-.contakt-stil:focus {
+.contakt-stil:hover, .contakt-stil:focus {
   color: var(--primary-text-color-theme-light);
-}
-
-.contakt-phone-number {
-  color: var(--secondary-text-color-theme-light);
 }/*# sourceMappingURL=$_header.css.map */
