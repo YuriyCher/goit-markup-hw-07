@@ -7,20 +7,22 @@ body {
   background-color: var(--primary-text-color-theme-dark);
 }
 
-.link {
-  -webkit-text-decoration: none .link -port;
-          text-decoration: none .link -port;
-  text-decoration-display: block;
-  text-decoration-text-decoration: none;
-  text-decoration-padding: 32px 0;
-  text-decoration-margin: 0;
+.nav__link {
+  text-decoration: none;
 }
 
-.studio-list {
+.nav__port {
+  display: block;
+  text-decoration: none;
+  padding: 32px 0;
+  margin: 0;
+}
+
+.nav__studio {
   margin-right: 93px;
 }
 
-.studio-list.link-port {
+.nav__studio.nav__port {
   padding: 24px 0;
 }
 

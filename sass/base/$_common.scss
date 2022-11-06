@@ -12,24 +12,25 @@ body
 
 
 
-.link
+.nav__link
 {
-text-decoration: none
-&-port 
+  text-decoration: none;
+}
+.nav__port 
 {   display: block;
 text-decoration: none;
 padding: 32px 0;
 margin: 0;
 }
-}
 
+// page__studio__list
 
-.studio-list
+.nav__studio
 {
 margin-right: 93px;
 }
 
-.studio-list.link-port
+.nav__studio.nav__port
 
 {
 padding: 24px 0;

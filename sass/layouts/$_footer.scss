@@ -107,4 +107,62 @@ color:var(--primary-text-color-theme-dark);
 
 
 
+.contakt-phone-icon
+{
+width: 10px;
+height: 16px; 
+margin-right: 10px;
+transition: fill var(--transition-dur-and-func);
+
+}
+// page__item__contakt
+
+.nav__item:hover,
+.nav__item:focus
+{
+fill: var(--primary-text-color-theme-light);
+}
+
+
+
+.page__contakt__email
+{display: flex;
+align-items: center;
+
+}
+
+// .page__post__email
+.nav__mail
+{
+display: flex;
+align-items: center;
+&-icon
+{
+width: 16px;
+height: 12px;
+margin-right: 10px;
+transition: fill var(--transition-dur-and-func);
+&:hover,
+&:focus
+{
+fill: var(--primary-text-color-theme-light); 
+}
+}
+}
+
+
+
+
+
+
+// .page__post__email__link
+.nav__post
+{
+display: flex;
+
+align-items: center;
+margin-right: 10px;
+}
+
+
 

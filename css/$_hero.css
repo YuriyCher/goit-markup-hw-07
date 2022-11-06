@@ -322,41 +322,4 @@
   text-transform: uppercase;
   color: var(--primary-text-color-theme-dark);
   background-color: rgba(47, 48, 58, 0.8);
-}
-
-.contakt-phone-icon {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  transition: fill var(--transition-dur-and-func);
-}
-
-.item-contakt:hover,
-.item-contakt:focus {
-  fill: var(--primary-text-color-theme-light);
-}
-
-.contakt-email {
-  display: flex;
-  align-items: center;
-}
-
-.post-email {
-  display: flex;
-  align-items: center;
-}
-.post-email-icon {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  transition: fill var(--transition-dur-and-func);
-}
-.post-email-icon:hover, .post-email-icon:focus {
-  fill: var(--primary-text-color-theme-light);
-}
-
-.post-email-link {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
 }/*# sourceMappingURL=$_hero.css.map */
