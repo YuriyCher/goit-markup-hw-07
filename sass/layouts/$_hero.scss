@@ -60,7 +60,7 @@
 
   
     
-.page-benefits
+.page__benefits
 {
   display: flex;
   align-content: center;
@@ -68,14 +68,16 @@
 
 }
 
-.item-page-benefits 
+// .item-page-benefits 
+.page__item
 {
  
 
    width: 270px;
   
 }
-.title-benefits
+// .title-benefits
+.page__title
  {
   text-transform: uppercase;
  font-weight: 700;
@@ -84,7 +86,8 @@
   letter-spacing: 0.03em;
 }
 
-.note-benefits
+// .note-benefits
+.page__note
  { margin-top:10px; 
  
     font-weight: 400;
@@ -93,7 +96,26 @@
    color:var(--secondary-text-color-theme-light);
   
 }
+// .benefits-list-icon
+.page__list__icon
+ {
+  width: 65.32px;
+  height: 70px;
+  fill: var(--accent-color);
+}
 
+// .benefits-icon
+.page__icon
+{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 270px;
+
+height: 120px;
+background-color: var(--secondary-background-color-theme-light);    
+margin-bottom: 30px;
+}
 
 
 
@@ -104,8 +126,10 @@
   &-section 
 {
   background: var(--secondary-background-color-theme-light);
-  
-  &-liter 
+}
+}
+
+  .team-liter 
 {
     font-size: 36px;
     line-height:1.16;
@@ -115,8 +139,8 @@
     color:var(--accent-color)
   
 }         
-}
-}
+
+
 
 
 .item-team
@@ -208,8 +232,8 @@ transition: color var(--transition-dur-and-func);
 {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 1px 4px 6px rgba(0, 0, 0, 0.16);
-&:hover .card-img-text,
-&:focus .card-img-text
+&:hover.card-img-text,
+&:focus.card-img-text
 {
 transform: translateY(0%);
 opacity: 1;
@@ -396,26 +420,9 @@ width: 170px;
 height: 92px;
 } 
 
-.benefits-list-icon
-{
-width: 65.32px;
-height: 70px;
-fill: var(--accent-color);
-
-}
 
 
-.benefits-icon
-{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 270px;
 
-height: 120px;
-background-color: var(--secondary-background-color-theme-light);    
-margin-bottom: 30px;
-}
 
 .gadget-dop 
 {

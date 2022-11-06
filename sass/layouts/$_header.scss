@@ -1,6 +1,6 @@
 
 
-.logo
+.nav__logo
 { 
     font-family:Raleway, sans-serif;
     font-weight: 700;
@@ -12,7 +12,8 @@
     align-items:center;
     
      color: var(--accent-color);
-     &__w 
+}
+     .nav__logo__w 
      { font-family: Raleway, sans-serif;
        font-style: normal;
        font-weight: 700;
@@ -21,10 +22,10 @@
        letter-spacing: 0.03em;
        color:var(--primary-text-color-theme-dark);
       }
-  }
+  
 
 
-  .accent-logo
+  .nav__accent__logo
   { font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -59,21 +60,22 @@
 
 .nav__nav 
 { 
-  display:flex;
+  display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.nav__menu_left
+ .nav__menu__left
 {
-  margin-left: 93px;
-}
+   margin-left: 93px;
+ }
 
 .nav__menu
 {
   display: flex;
   align-items:center;
   gap: 50px;
+  margin-left: 93px;
 }  
 
   // page__menu__link
@@ -113,6 +115,8 @@
 // page__contact__email
  .nav__email 
  {
+  display: flex;
+ align-items: center;
    font-weight: 500;
    fill:currentColor;
    color:var( --secondary-text-color-theme-light);
@@ -141,4 +145,63 @@
  }
  
 
+
+//  .contakt-phone-icon
+.nav__phone__icon
+ {
+ width: 10px;
+ height: 16px; 
+ margin-right: 10px;
+ transition: fill var(--transition-dur-and-func);
+ 
+ }
+ // page__item__contakt
+ 
+ .nav__item:hover,
+ .nav__item:focus
+ {
+ fill: var(--primary-text-color-theme-light);
+ }
+ 
+ 
+ 
+//  .page__contakt__email
+//  {display: flex;
+//  align-items: center;
+ 
+//  }
+ 
+ // .page__post__email
+ .nav__mail
+ {
+ display: flex;
+ align-items: center;
+ }
+ .nav__mail__icon
+ {
+ width: 16px;
+ height: 12px;
+ margin-right: 10px;
+ transition: fill var(--transition-dur-and-func);
+ &:hover,
+ &:focus
+ {
+ fill: var(--primary-text-color-theme-light); 
+ }
+ }
+ 
+
+ 
+ // .page__post__email__link
+ .nav__post
+ {
+ display: flex;
+ 
+ align-items: center;
+ margin-right: 10px;
+ }
+ 
+ 
+ 
+ 
 

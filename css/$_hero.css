@@ -37,17 +37,17 @@
   padding-top: 0;
 }
 
-.page-benefits {
+.page__benefits {
   display: flex;
   align-content: center;
   gap: 30px;
 }
 
-.item-page-benefits {
+.page__item {
   width: 270px;
 }
 
-.title-benefits {
+.page__title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -55,12 +55,28 @@
   letter-spacing: 0.03em;
 }
 
-.note-benefits {
+.page__note {
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color-theme-light);
+}
+
+.page__list__icon {
+  width: 65.32px;
+  height: 70px;
+  fill: var(--accent-color);
+}
+
+.page__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-background-color-theme-light);
+  margin-bottom: 30px;
 }
 
 .team {
@@ -71,7 +87,8 @@
 .team-section {
   background: var(--secondary-background-color-theme-light);
 }
-.team-section-liter {
+
+.team-liter {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -152,7 +169,7 @@
 .flex-element:focus, .flex-element:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.flex-element:focus:hover .card-img-text, .flex-element:focus:focus .card-img-text, .flex-element:hover:hover .card-img-text, .flex-element:hover:focus .card-img-text {
+.flex-element:focus:hover.card-img-text, .flex-element:focus:focus.card-img-text, .flex-element:hover:hover.card-img-text, .flex-element:hover:focus.card-img-text {
   transform: translateY(0%);
   opacity: 1;
 }
@@ -283,22 +300,6 @@
 .customers-list-item {
   width: 170px;
   height: 92px;
-}
-
-.benefits-list-icon {
-  width: 65.32px;
-  height: 70px;
-  fill: var(--accent-color);
-}
-
-.benefits-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-  background-color: var(--secondary-background-color-theme-light);
-  margin-bottom: 30px;
 }
 
 .gadget-dop {

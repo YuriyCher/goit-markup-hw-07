@@ -24,10 +24,11 @@ href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.c
     <!--шапка сайта-->
 <header class="header box">
 <div class="container nav"> 
-<nav class="nav-nav">
+<nav class="nav__nav">
      
-          <a href="./index.html" class="nav__studio nav__port"><span class="logo">
-            <span class="nav__port list nav__link">Web</span>Studio</span></a> 
+          <a href="./index.html" class="nav__studio nav__port">
+            <span class="nav__logo">
+            <span class="nav__accent__logo ">Web</span>Studio</span></a> 
     
      <ul class="list nav__menu nav__menu_left">
        <li class="nav__item">
@@ -42,9 +43,9 @@ href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.c
     </ul>
   </nav>
     <ul class="list nav__contakt">
-      <li class="nav__post nav__item"> 
+      <li class="nav__post nav__item nav__mail"> 
         <a class="nav__item nav__email nav__port">
-        <svg class="post-email-icon">
+        <svg class="nav__mail__icon">
           <use href="./images/symbol-defs 2.svg#icon-envelope-hover"></use> 
     </svg>
     info@devstudio.com
@@ -53,7 +54,7 @@ href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.c
   
 <li class="nav__email">
 <a class="nav__item nav__email nav__port">
-  <svg class="contakt-phone-icon">
+  <svg class="nav__phone__icon">
 <use href="./images/symbol-defs 2.svg#icon-untitled"></use>
   </svg>
  +380961111111
@@ -80,52 +81,52 @@ href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.c
 
 </section>
 <section class="benefits section">
-  <div class="container">
+  <div class="container page">
      <!-- <h2>ПЕРЕВАГИ КОМАНДИ</h2> -->
-       <ul  class="list page-benefits">
+       <ul  class="list page__benefits">
   
-        <li class="item-page-benefits">
-          <div class="benefits-icon">
-            <svg class="benefits-list-icon">
+        <li class="page__item">
+          <div class="page__icon">
+            <svg class="page__list__icon">
 
-  <use href="./images/symbol-defs 2.svg#icon-antenna-1"></use>
+          <use href="./images/symbol-defs 2.svg#icon-antenna-1"></use>
                  </svg>
           </div>
-          <h3 class="title-benefits">Увага до деталей</h3>
-           <p class="note-benefits">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+          <h3 class="page__title">Увага до деталей</h3>
+           <p class="page__note">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </li>
    
-        <li class="item-page-benefits">
-          <div class="benefits-icon">
-            <svg class="benefits-list-icon">
+        <li class="page__item">
+          <div class="page__icon">
+            <svg class="page__list__icon">
             <use href="./images/symbol-defs 2.svg#icon-clock"></use>
                  </svg>
           </div>
 
-          <h3 class="title-benefits">Пунктуальність</h3>
-          <p class="note-benefits">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+          <h3 class="page__title">Пунктуальність</h3>
+          <p class="page__note">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
           
        
         </li>
   
-        <li class="item-page-benefits">
-          <div class="benefits-icon">
-            <svg class="benefits-list-icon">
+        <li class="page__item">
+          <div class="page__icon">
+            <svg class="page__list__icon">
             <use href="./images/symbol-defs 2.svg#icon-diagram"></use>
                  </svg>
           </div>
-          <h3 class="title-benefits">Планування</h3>
-           <p class="note-benefits">Так само консультація з широким активом значною мірою зумовлює.</p>
+          <h3 class="page__title">Планування</h3>
+           <p class="page__note">Так само консультація з широким активом значною мірою зумовлює.</p>
         </li>
 
-             <li class="item-page-benefits">
-              <div class="benefits-icon">
-                <svg class="benefits-list-icon">
+             <li class="page__items">
+              <div class="page__icon">
+                <svg class="page__list__icon">
                 <use href="./images/symbol-defs 2.svg#icon-astronaut"></use>
                      </svg>
               </div>
-              <h3 class="title-benefits">Сучасні технології</h3>
-          <p class="note-benefits">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+              <h3 class="page__title">Сучасні технології</h3>
+          <p class="page__note">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
       </ul>
   </div>
@@ -389,55 +390,52 @@ href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.c
      </section>
 
     </main>
-  <footer class="foot">
+  <footer class="foots">
            
-  <div class="container page-foot">
-      
-
-
-
-      
-    <div class="foot-top">
-      <a class="logo-w link" href="./index.html">
-        <span class="accent-logo ">Web</span>Studio</a> 
+  <div class="container foot">
+          
+    <div class="foot__top">
+ 
+  <a class="nav__logo__w  nav__link " href="./index.html">
+        <span class=" nav__accent__logo ">Web</span>Studio</a> 
          
-      <address>
-        <ul class="foot-list list log-name">
+      <foot__top__address>
+        <ul class="nav__top__list  list nav__name join__title__bottom contact--light">
 
           <li><a>м.Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a  class="link tel-port" href="">info@devstudio.com</a></li>
-          <li><a  class="link list tel-port" href="">+380961111111</a></li>
+          <li><a  class="nav__link nav__tel" href="">info@devstudio.com</a></li>
+          <li><a  class="nav__link list nav__tel" href="">+380961111111</a></li>
 
         </ul>
-      </address>
+      </foot__top__address>
     </div>   
-     <div class="join">
-        <p class="join-title">Приєднуйтесь</p>
-        <ul class="social-list list">
-          <li class="social-list-item">
-            <a href="" class="social-list-link-footer"> 
-            <svg lang="en" aria-label="instagram icon"  class="social-list-icon-footer">
+     <div class="join ">
+        <p class="join__title">Приєднуйтесь</p>
+        <ul class="join__soc list">
+          <li class="join__soc__item">
+            <a href="" class="join__soc__link"> 
+            <svg lang="en" aria-label="instagram icon"  class="soc__icon">
               <use href="./images/symbol-defs 2.svg#icon-instagramKC-1">  </use>
             </svg>
            </a>
           </li>
-          <li class="social-list-item">
-            <a href="" class="social-list-link-footer"> 
-            <svg lang="en" aria-label="twitter icon" class="social-list-icon-footer">
+          <li class="join__soc__item">
+            <a href="" class="join__soc__link"> 
+            <svg lang="en" aria-label="twitter icon" class="soc__icon">
               <use href="./images/symbol-defs 2.svg#icon-twitterK-1">  </use>
             </svg>
            </a>
           </li>
-          <li class="social-list-item">
-            <a href="" class="social-list-link-footer"> 
-            <svg lang="en" aria-label="facebook icon" class="social-list-icon-footer">
+          <li class="join__soc__item">
+            <a href="" class="join__soc__link"> 
+            <svg lang="en" aria-label="facebook icon" class="soc__icon">
                <use href="./images/symbol-defs 2.svg#icon-facebookK-1"></use>
             </svg>
            </a>
           </li>
-          <li class="social-list-item">
-            <a href="" class="social-list-link-footer"> 
-            <svg lang="en" aria-label="linkedin icon"  class="social-list-icon-footer">
+          <li class="join__soc__item">
+            <a href="" class="join__soc__link"> 
+            <svg lang="en" aria-label="linkedin icon"  class="soc__icon">
               <use href="./images/symbol-defs 2.svg#icon-linkedinK-1">  </use>
             </svg >
            </a>
