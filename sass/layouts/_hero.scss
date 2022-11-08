@@ -25,8 +25,7 @@
 
   .title-main 
   {
-   
-  text-transform: uppercase;
+    text-transform: uppercase;
     font-size: 44px;
     line-height: 1.36;
     width: 696px;
@@ -35,26 +34,17 @@
     margin-bottom: 30px;
     letter-spacing: 0.06em;
     color:var(--primary-text-color-theme-dark);
-    
-    
    }  
    
-   
-  
-
-
- 
-
-    
+     
      .do 
   {
-      display: flex; 
-      text-align: center;
-      gap: 30px;
-     &-it
+    display: flex; 
+    text-align: center;
+    gap: 30px;
+    &-it
   { 
   padding-top:0;
- 
   }
   }
 
@@ -65,16 +55,12 @@
   display: flex;
   align-content: center;
   gap: 30px;
-
 }
 
 // .item-page-benefits 
 .page__item
 {
- 
-
-   width: 270px;
-  
+  width: 270px; 
 }
 // .title-benefits
 .page__title
@@ -89,12 +75,10 @@
 // .note-benefits
 .page__note
  { margin-top:10px; 
- 
-    font-weight: 400;
-    font-size: 14px;
-    line-height:1.7;
-   color:var(--secondary-text-color-theme-light);
-  
+  font-weight: 400;
+  font-size: 14px;
+  line-height:1.7;
+  color:var(--secondary-text-color-theme-light); 
 }
 // .benefits-list-icon
 .page__list__icon
@@ -136,8 +120,7 @@ margin-bottom: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-    color:var(--accent-color)
-  
+    color:var(--accent-color) 
 }         
 
 
@@ -145,31 +128,28 @@ margin-bottom: 30px;
 
 .item-team
 {
-  
   background: var(--primary-text-color-theme-dark);
 }
  
     .team-name
-     { 
+{ 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
-   
+  line-height: 1.18; 
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--accent-color);
-   
+  color:var(--accent-color);  
   background:var(--primary-text-color-theme-dark);
-  }
+}
     
 .team-speciality
 {   
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.03em;
-     margin-top:  10px;
-     margin-bottom: 16px;
-      color:var(--secondary-text-color-theme-light);
+    margin-top:  10px;
+    margin-bottom: 16px;
+    color:var(--secondary-text-color-theme-light);
   }
 
   .current::after 
@@ -182,12 +162,10 @@ margin-bottom: 30px;
   height: 4px;
   background-color:var(--primary-text-color-theme-light);
   border-radius: 2px;
-
 }
 
 .box 
 {
-
 border-bottom:1px solid var(--secondary-color-border); 
 }
 
@@ -228,7 +206,6 @@ width: 370px;
 transition: color var(--transition-dur-and-func);
 &:focus,
 &:hover
-
 {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -239,14 +216,13 @@ transform: translateY(0%);
 opacity: 1;
 }
 }
-
 }
 
 
 
 
 
-    .flex-container 
+  .flex-container 
  { 
    display: flex; 
    flex-wrap:wrap;
@@ -258,17 +234,17 @@ opacity: 1;
 
  .currentColor
 {
-color:var(--primary-text-color-theme-light);
- &.filter-list.Усі
- :hover
+  color:var(--primary-text-color-theme-light);
+  &.filter-list.Усі:hover
  {
-   background-color:var(--secondary-background-btn-color-theme-light);
+  background-color:var(--secondary-background-btn-color-theme-light);
  }
 }
 
 
 
-.img-list{
+.img-list
+{
 width: 370px;
 }
 
@@ -279,20 +255,16 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-
 color:var(--accent-color);
 margin-top: 0px ;
 margin-bottom: 4px;}
 
 .card-speciality
 {
-
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
-
 letter-spacing: 0.03em;
-
 color:var(--secondary-text-color-theme-light);
 margin-top: 4px ;
 }
@@ -311,18 +283,17 @@ border-top: none;
 
 
 .card-bottom
-
 {
 padding: 30px;
-
 background-color:var(--primary-text-color-theme-dark);
-
-
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px; 
 }
 
-.a{text-decoration: none;}
+.a
+{
+  text-decoration: none;
+}
 
 
 .social-list
@@ -347,13 +318,12 @@ background-color:var(--primary-text-color-theme-light);
 transition:
 background-color var(--transition-dur-and-func);
 }
-
 }
 }
 
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon
+.social-list-link:hover.social-list-icon,
+.social-list-link:focus.social-list-icon
 {
 transition: fill var(--transition-dur-and-func);
 fill:var(--primary-text-color-theme-dark);
@@ -361,7 +331,6 @@ fill:var(--primary-text-color-theme-dark);
 
 .social-list-icon
 {
-
 width: 20px;
 height: 20px;
 fill:var(--secondary-background-fill);
@@ -415,7 +384,6 @@ fill:var(--primary-text-color-theme-light);
 
 .customers-list-item
 {
-
 width: 170px;
 height: 92px;
 } 
@@ -434,7 +402,6 @@ height: 92px;
 .title-mobile-applications,
 .title-desktop-applications
 {
-
 position: absolute;
 bottom: 0;
 left: 0;
@@ -443,12 +410,9 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
-
-
 font-family:Roboto, sans-serif;
 font-size: 14px;
 line-height: 1.14;
-
 text-transform: uppercase;
 color:var(--primary-text-color-theme-dark);
 background-color:

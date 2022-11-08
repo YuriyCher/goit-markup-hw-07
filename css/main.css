@@ -753,7 +753,7 @@ button {
 .currentColor {
   color: var(--primary-text-color-theme-light);
 }
-.currentColor.filter-list.Усі :hover {
+.currentColor.filter-list.Усі:hover {
   background-color: var(--secondary-background-btn-color-theme-light);
 }
 
@@ -822,8 +822,8 @@ button {
   transition: background-color var(--transition-dur-and-func);
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+.social-list-link:hover.social-list-icon,
+.social-list-link:focus.social-list-icon {
   transition: fill var(--transition-dur-and-func);
   fill: var(--primary-text-color-theme-dark);
 }
@@ -985,7 +985,7 @@ button {
   transition: background-color var(--transition-dur-and-func);
 }
 
-.join__soc__link:hover.soc__icon,
+.join__soc__link:hover,
 .join__soc__link:focus.soc__icon {
   background-color: var(--primary-text-color-theme-light);
   transition: background-color var(--transition-dur-and-func);
