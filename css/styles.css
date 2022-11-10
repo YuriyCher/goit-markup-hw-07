@@ -1,4 +1,5 @@
- /* :root
+
+:root
 {
     --accent-color:   #212121;
     --primary-font:Roboto,sans-serif;
@@ -14,8 +15,8 @@
     --secondary-color-border:#ECECEC;
     --transition-dur-and-func:250ms linear;
     --timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-  } */
-/* 
+  } 
+
   h1,h2,h3,h4,p
   {
       
@@ -25,13 +26,14 @@
 
 
 .ul,    
-.li{ 
+.li
+{ 
       margin-top: 0px;
       margin-bottom:0px;
       padding-left: 0px;
       padding-right: 0px;
       
-   }
+}
 
    img
    {
@@ -40,27 +42,22 @@
        height: auto;
    }
    
-    */
 
-
-
-
-
- /* .container 
+ .container 
      {    
         width: 1200px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 15px;
         padding-right: 15px; 
-      } */
-  /* .section 
+      } 
+    .section 
       { 
         padding-top: 94px;
         padding-bottom: 94px;
-      } */
+      }
 /* ============components=========== */
-/* 
+
 
 .logo
 { 
@@ -68,13 +65,12 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-   
-   
     display: flex;
-    align-items:center;
-    
+    align-items:center;    
      color: var(--accent-color);
   }
+
+
 .logo-w 
 { font-family: Raleway, sans-serif;
   font-style: normal;
@@ -126,12 +122,12 @@
   align-items: center;
   margin-left: auto;
 }
- */
+
 
      
     /* ============heder==================    */
-  
-    /* body
+   
+   body
     {
         font-family: Roboto, sans-serif;
   
@@ -185,12 +181,12 @@ margin-right: 93px;
 
 }
        .button { cursor: pointer;}
-      */
+      
 
 
 
 
-/* .overlay
+ .overlay
 {
   max-width: 1600px;
   height: 600px;
@@ -210,14 +206,13 @@ margin-right: 93px;
    text-align: center;
    padding-top:  200px;
    padding-bottom:200px;
-   /* background-color:  #2F303A;  */
-   /* }
-     */
-/* 
+    background-color:  #2F303A;  
+   }
+     
+
 
   .title-main 
-  {
-   
+  {   
   text-transform: uppercase;
     font-size: 44px;
     line-height: 1.36;
@@ -226,9 +221,7 @@ margin-right: 93px;
     margin-right: auto;
     margin-bottom: 30px;
     letter-spacing: 0.06em;
-    color:var(--primary-text-color-theme-dark);
-    
-    
+    color:var(--primary-text-color-theme-dark);  
    }  
    
    
@@ -250,11 +243,11 @@ margin-right: 93px;
       gap: 30px;
       
 
-  } */ 
-/* 
+  } 
+
     .modal-open-btn
 
-    {
+{
     font-family: Roboto, sans-serif;  
     font-weight: 700;
     font-size: 16px;
@@ -278,8 +271,8 @@ margin-right: 93px;
     color:var(--primary-text-color-theme-dark) ;
     background-color:var(--secondary-background-btn-color-theme-light);
     }
-   */
-/* 
+   
+
     .filter 
     {
       display: flex; 
@@ -320,16 +313,16 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
         color:var(--primary-text-color-theme-dark);
         background:var(--primary-text-color-theme-light); 
 }
- */
-/* 
+ 
+
 button{
   border: none;
 }
 
   .button {
    border-width: 0px;
-   } */
-/* 
+   } 
+ 
     
 .page-benefits
 {
@@ -394,15 +387,14 @@ button{
   margin-bottom: 50px;
   
   color:var(--accent-color)
-
 }       
 
     .team-name
-     { 
+  { 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-   
+  margin-bottom:  10px;
   text-align: center;
   letter-spacing: 0.03em;
   color:var(--accent-color);
@@ -415,7 +407,7 @@ button{
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.03em;
-     margin-top:  10px;
+    
      margin-bottom: 16px;
       color:var(--secondary-text-color-theme-light);
   }
@@ -431,10 +423,10 @@ button{
   background-color:var(--primary-text-color-theme-light);
   border-radius: 2px;
 
-} */
+} 
 
 
-/* 
+
  .menu
  {margin-left: 93px;
  } 
@@ -490,12 +482,11 @@ button{
   .contakt-phone-number
    {
     color:var(--secondary-text-color-theme-light);
-  } */
+  }
 
-
-   /* =======footer============   */
+ /* =======footer============    */
     
-    /* .foot-list 
+     .foot-list 
   {
     font-style: normal;   
     font-weight: 400;
@@ -543,12 +534,12 @@ button{
      
 
     }
-    */
+    
    
    /* Портфоліо */
 
    
-   /* .box 
+    .box 
    {
  
 border-bottom:1px solid var(--secondary-color-border); 
@@ -584,8 +575,8 @@ border-bottom:1px solid var(--secondary-color-border);
   opacity: 0;
 }
 
-.flex-element:hover .card-img-text,
-.flex-element:focus .card-img-text
+.flex-element:hover.card-img-text,
+.flex-element:focus.card-img-text
 {
   transform: translateY(0%);
  opacity: 1;
@@ -623,16 +614,15 @@ color:var(--primary-text-color-theme-light);
   text-decoration: none;
   width: 370px;
   transition: color var(--transition-dur-and-func);
-
-
 }
+
 .flex-element:focus,
 .flex-element:hover
-
 {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .card-name
  {
 font-weight: 700;
@@ -738,7 +728,6 @@ background-color var(--transition-dur-and-func);
   height: 20px;
   fill:var(--secondary-background-fill);
 }
-
 
 .customers-list 
 {
@@ -921,9 +910,9 @@ margin-left: 70px;
    margin-bottom: 20px; 
    color:var(--primary-text-color-theme-dark);
   
-}  */
+}  
 
-/* .page-foot
+ .page-foot
 {
 
   display: flex;
@@ -965,9 +954,9 @@ transition:background-color var(--transition-dur-and-func);
 width: 20px;
 height: 20px;
 fill: var(--primary-text-color-theme-dark);
-} */
+} 
 /* ===========  backdrop========== */
-/* .backdrop
+ .backdrop
 {
   position:fixed;
   top: 0;
@@ -1009,7 +998,6 @@ pointer-events: none;
 
 
 .modal-close-btn
-
 {   
     position: absolute;
     width: 30px;
@@ -1035,7 +1023,7 @@ pointer-events: none;
 }
 /* ==============modal-form========== */
 
- /* .modal-form-title
+ .modal-form-title
 {
   font-weight: 700;
     font-size: 20px;
@@ -1045,17 +1033,13 @@ pointer-events: none;
     color:var(--accent-color);
     margin-bottom: 30px;
     justify-content: center;
-
-
 }
 
 
 .modal-form-check,
-
 .modal-form-message,
 .modal-form-input
 {
-
 display: block;
 width: 100%;
  height: 40px;
@@ -1080,12 +1064,9 @@ margin-bottom:28px;
 {
   position: relative;
   margin-bottom: 28px;
- 
 }
 .modal-form-field-desc 
 {
-  
-
   position: absolute;
   font-size: 12px;
   line-height: 1.16;
@@ -1242,7 +1223,6 @@ margin-bottom:28px;
  letter-spacing: 0.03em;
 margin: 5px;
  color:var(--primary-text-color-theme-light);  
-
 }
 
 .modal-form-input-icon
@@ -1252,8 +1232,8 @@ margin: 5px;
   left: 12px;
   display: inline-block;
   transform: translateY(-50%);
-
 }
+
 .modal-form-input-wrapper:focus 
 {
   outline:none;
@@ -1353,5 +1333,4 @@ fill:var(--primary-text-color-theme-light);
  width:24px;
 height:24px;
 color:var(--primary-text-color-theme-dark);
- }
-    */
+}  
