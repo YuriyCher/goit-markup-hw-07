@@ -439,7 +439,7 @@ button {
   color: var(--accent-color);
 }
 
-.nav__logo__w {
+.nav__foot__logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -738,10 +738,14 @@ button {
   width: 370px;
   transition: color var(--transition-dur-and-func);
 }
-.flex-element:focus, .flex-element:hover {
+
+.flex-element:focus,
+.flex-element:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.flex-element:focus:hover.card-img-text, .flex-element:focus:focus.card-img-text, .flex-element:hover:hover.card-img-text, .flex-element:hover:focus.card-img-text {
+
+.flex-element:focus .card-img-text,
+.flex-element:hover .card-img-text {
   transform: translateY(0%);
   opacity: 1;
 }
@@ -846,6 +850,7 @@ button {
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
+
 .customers-list-link {
   display: flex;
   align-items: center;
@@ -855,7 +860,8 @@ button {
   width: 100%;
   height: 100%;
   fill: var(--secondary-background-fill);
-  transition: fill var(--transition-dur-and-func), border(--transition-dur-and-func);
+  transition: fill var(--transition-dur-and-func);
+  transition: border(--transition-dur-and-func);
 }
 .customers-list-link:hover, .customers-list-link:focus {
   fill: var(--primary-text-color-theme-light);
@@ -898,6 +904,11 @@ button {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
+.social-list-link:hover.social-list-icon {
+  transition: fill var(--transition-dur-and-func);
+  fill: var(--primary-text-color-theme-dark);
+}
+
 .foots {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -937,6 +948,7 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-dark);
+  margin-bottom: 20px;
 }
 
 .nav__accent__logo {
@@ -950,7 +962,7 @@ button {
 }
 
 .foot__top__address {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .nav__name {
@@ -1015,10 +1027,6 @@ button {
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--primary-text-color-theme-dark);
-}
-
-.join__title__bottom {
-  margin-top: 20px;
 }
 
 :root {

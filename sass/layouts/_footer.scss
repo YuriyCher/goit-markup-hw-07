@@ -35,7 +35,8 @@ align-items: baseline;
     
      color: var(--accent-color);
 }
-     .nav__logo__w 
+    //  .nav__logo__w 
+     .nav__logo__w
      { font-family: Raleway, sans-serif;
        font-style: normal;
        font-weight: 700;
@@ -43,6 +44,7 @@ align-items: baseline;
        line-height: 1.19;
        letter-spacing: 0.03em;
        color:var(--primary-text-color-theme-dark);
+       margin-bottom: 20px;
       }
   
 
@@ -57,12 +59,12 @@ align-items: baseline;
     color:  var(--primary-text-color-theme-light);
   }
 
-  // address
+  //  address
 
 .foot__top__address
 {
-margin-bottom:20px;
-}
+ margin-top:20px;
+ }
 
 // log-name
 
@@ -164,7 +166,7 @@ margin-bottom: 20px;
 color:var(--primary-text-color-theme-dark);
 } 
 
-.join__title__bottom
-{
-  margin-top: 20px;
-}
+// .join__title__bottom
+// {
+//  margin-bottom: 20px;
+//  }
