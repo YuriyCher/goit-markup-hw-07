@@ -70,7 +70,8 @@
   font-size: 14px;
   line-height:1.14;
   letter-spacing: 0.03em;
-  margin-bottom:10px;
+  margin-bottom: 10px;
+
 }
 
 // .note-benefits
@@ -301,8 +302,8 @@ border-radius: 0px 0px 4px 4px;
 {
  display: flex; 
 justify-content: center;
-column-gap: 10px;
-margin-bottom: 10px; 
+column-gap:10px;
+margin-bottom:10px; 
 &-link
 {
 display:flex;
@@ -310,7 +311,7 @@ align-items: center;
 justify-content: center;
 width: 44px;
 height: 44px;
-border-radius: 50px;
+border-radius:50px;
 background-color: var(--primary-text-color-theme-dark);
 transition: background-color var(--transition-dur-and-func);
 &:hover,
@@ -324,12 +325,12 @@ background-color var(--transition-dur-and-func);
 }
 
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon
-{
-transition: fill var(--transition-dur-and-func);
-fill:var(--primary-text-color-theme-dark);
-}
+// .social-list-link:hover .social-list-icon,
+// .social-list-link:focus .social-list-icon
+// {
+// transition: fill var(--transition-dur-and-func);
+// fill:var(--primary-text-color-theme-dark);
+// }
 
 .social-list-icon
  {
@@ -341,9 +342,9 @@ fill:var(--secondary-background-fill);
 .social-list-icon:hover,
 .social-list-icon:focus 
 {
-  transition: fill var(--transition-dur-and-func);
+ transition: fill var(--transition-dur-and-func);
   fill:var(--primary-text-color-theme-dark);  
-}
+ }
 
 .customers-list 
 {

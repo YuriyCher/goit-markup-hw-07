@@ -1,5 +1,5 @@
 
-:root
+/* :root
 {
     --accent-color:   #212121;
     --primary-font:Roboto,sans-serif;
@@ -15,9 +15,9 @@
     --secondary-color-border:#ECECEC;
     --transition-dur-and-func:250ms linear;
     --timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-  } 
+  }  */
 
-  h1,h2,h3,h4,p
+  /* h1,h2,h3,h4,p
   {
       
       margin-top: 0;
@@ -55,10 +55,10 @@
       { 
         padding-top: 94px;
         padding-bottom: 94px;
-      }
+      } */
 /* ============components=========== */
 
-
+/* 
 .logo
 { 
     font-family:Raleway, sans-serif;
@@ -124,10 +124,10 @@
 }
 
 
-     
+      */
     /* ============heder==================    */
    
-   body
+   /* body
     {
         font-family: Roboto, sans-serif;
   
@@ -482,11 +482,11 @@ button{
   .contakt-phone-number
    {
     color:var(--secondary-text-color-theme-light);
-  }
+  } */
 
  /* =======footer============    */
     
-     .foot-list 
+     /* .foot-list 
   {
     font-style: normal;   
     font-weight: 400;
@@ -535,9 +535,9 @@ button{
 
     }
     
-   
+    */
    /* Портфоліо */
-
+/* 
    
     .box 
    {
@@ -956,7 +956,7 @@ height: 20px;
 fill: var(--primary-text-color-theme-dark);
 } 
 /* ===========  backdrop========== */
- .backdrop
+ /* .backdrop
 {
   position:fixed;
   top: 0;
@@ -1020,10 +1020,10 @@ pointer-events: none;
 .modal-close-btn:focus{
 
   fill:var(--primary-text-color-theme-light);
-}
+} */
 /* ==============modal-form========== */
 
- .modal-form-title
+ /* .modal-form-title
 {
   font-weight: 700;
     font-size: 20px;
@@ -1333,4 +1333,4 @@ fill:var(--primary-text-color-theme-light);
  width:24px;
 height:24px;
 color:var(--primary-text-color-theme-dark);
-}  
+}    */

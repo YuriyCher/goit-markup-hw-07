@@ -1,15 +1,10 @@
 body {background-color:rgb(13, 225, 225)};
-@import "./base/$_reset.scss";
-@import "./base/$_common.scss";
-@import "./components/$_container.scss";
-@import "./components/$_botton.scss";
-@import "./components/$_form.scss";
-@import "./layouts/$_header.scss";
-@import "./layouts/$_hero.scss";
-@import "./layouts/$_footer.scss";
-@import "./utils/$_root.scss";
-
-
-
-
-
+@import "./base/reset";
+@import "./base/common";
+@import "./components/container";
+@import "./components/button";
+@import "./components/modal";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/footer";
+@import "./utils/root";
