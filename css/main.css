@@ -730,6 +730,7 @@ button {
   padding: 24px 63px;
   overflow: hidden;
   opacity: 0;
+  padding: 63 24;
 }
 
 .flex-element {
